@@ -4,6 +4,7 @@ expanderModule.directive('expander', function() {
         restrict : 'EA',
         replace : true,
         transclude : true,
+        //what is the content in scope????
         scope : {
             title : '=expanderTitle'
         },
